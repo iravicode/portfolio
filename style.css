@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: auto;
+  width: 90%;
+  margin: 0px auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.men .navlink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  font-family: sans-serif;
+}
+.navlink li {
+  list-style-type: none;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .hero-image-containero {
+  height: 20px;
+}
+.card .hero-image-containero img {
+  height: 100%;
+  width: 100%;
+}
+
+.button .sign {
+  border: none;
+  margin: 2px 20px;
+}
+.button .blocks {
+  height: 35px;
+  width: 100px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 7px;
+}
+.web {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 550px;
+  margin-top: 60px;
+}
+.web .page {
+  height: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.web .page h1{
+    font-size: 50px;
+    
+}
+.web .page p{
+    font-size: x-large;
+    /* word-break: break-all; */
+    gap: 5px;
+}
+.page .email{
+    display: flex;
+    gap: 10px;
+}
+.page .email .input{
+    height: 40px;
+    width: 25rem;
+    border-radius: 10px;
+}
+.web .page .offer{
+    border-radius: 10px;
+    font-size: small;
+    height: 40px;
+    width: 160px;
+    background-color: black;
+    color: antiquewhite;
+}
+.page .pairagraf p{
+    font-size:16px ;
+}
+.web .images img {
+  height: 550px;
+  width: 600px;
+}
+.client{
+    padding: 112px 32px;
+}
+.client .some h3{
+    text-align: center;
+}
+.companiy{
+    height:auto;
+    width: 100%;
+}
+.client .companiy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+.companiy .coinbase img{
+    height: 95px;
+    width: 170px;
+    gap: 6px;
+}
+.base{
+  text-align: center;
+}
+  .base h1{
+    margin: 15px;
+    font-size: 37px;
+}
+.base p{
+  font-size: 22px;
+  word-spacing: 2px;
+}
+.development{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+.app{
+  height: auto;
+  width: 350px;
+  margin-top: 90px;
+}
+.app .icon{
+  height: 70px;
+  width: 80px;
+ margin: 0px auto;
+  
+}
+.app .icon img{
+  height: 100%;
+  width: 100%;
+  
+}
+.app .frontend{
+text-align: center;
+/* border: 1px solid olivedrab;  */
+/* margin: 20px; */
+}
+.app .frontend h2{
+  margin: 20px;
+}
+.app .frontend p{
+  font-size: 22px;
+  word-spacing: 1.5px;
+}
+.My-Projects{
+height: auto;
+width: 100%;
+margin-top: 100px;
+}
+.project{
+  text-align: center;
+}
+.project h1{
+  font-size: 38px;
+  margin-bottom: 28px;
+
+}
+.project p{
+  font-size: 22px;
+  height: auto;
+  width: 100%;
+}
+.mobile-app{
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+}
+.mobile-app .aboutus{
+  height: auto;
+  width: 300px;
+  gap: 8px;
+}
+.aboutus .help img{
+  height: 100%;
+  width: 100%;
+}
+.aboutus .about h1{
+   font-size: 22px;
+   margin: 17px 0px;
+}
+.aboutus .about p{
+  font-size: 20px;
+  margin:17px 0px ;
+}
+.aboutus .about .submit{
+  height: 35px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: black;
+  color: aliceblue;
+}
