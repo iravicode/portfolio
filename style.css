@@ -212,3 +212,203 @@ margin-top: 100px;
   background-color: black;
   color: aliceblue;
 }
+.resume{
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 0px;
+}
+.resume .profail{
+  width: 40%;
+  
+}
+.resume .profail h2{
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+.resume .profail p{
+  font-size: 20px;
+  line-height: 30px;
+} 
+.resume .profail .VIEW{
+  margin-top:20px;
+  border: none;
+  font-size: 18px;
+  padding: 12px 28px;
+  background: none;
+  cursor: pointer;
+  border-radius: 8px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.VIEW:hover{
+  background: #ddd !important;
+}
+ .VIEW img{
+  height: 20px;
+  width: 16px;
+ 
+}
+.skill{
+
+}
+.skill .Bachelor{
+  display: flex;
+  gap: 22px;
+  line-height: 36px; 
+}
+.IMAGES1 img{
+  height:45px;
+  width:45px;
+  padding:12px;
+  background-color:rgb(172, 163, 84);
+  border-radius:12px;
+}
+.manager{
+  height: auto;
+  width: 100%;
+}
+.Clients{
+  text-align: center;
+}
+.Clients h1{
+  font-size: 36px;
+  padding-bottom: 12px;
+}
+.Clients p{
+  font:20px roboto,sans-serif;
+  margin: 0px 159.016px 0px 159px;
+  padding: 0px 16px;
+}
+.Mobile-App{
+  display: flex;
+  justify-content:space-between ;
+  margin:125px 0px;
+  width: 100%;
+  height: 448px;
+  padding: 32px 0px;
+}
+.Mobile-App .marketing h1{
+  font: 30px roboto,sans-serif;
+  margin: 0px 0px 16px;
+  color: rgb(34, 24, 24);
+  width: 320px;
+  height: 82.5px;
+}
+.Mobile-App .marketing p{
+  font: 16px roboto,sans-serif;
+  margin: 0px 0px 12px;
+  width: 389.33px;
+  line-height: 31px;
+  
+}
+.Mobile-App .marketing h3{
+  font: 22px roboto,sans-serif;
+  margin: 0px 0px 2px;
+  height: 26px;
+  color: black;
+}
+.Mobile-App .marketing h4{
+  font: 16px roboto,sans-serif;
+  margin: 0px 0px 20px;
+  height: 21px;
+  color: black;
+}
+ .icon-e {
+  display: flex;
+  height: 36px;
+  width: 50%px;
+  gap: 30px;
+}
+.icon-e img{
+width: 36px;
+border-radius: 5px;
+}
+.Mobile-App .images img{
+  width: 288px;
+  height: 336px;
+  /* margin-right: 125px; */
+}
+.popular{
+  text-align: center;
+}
+.popular p{
+  height: 25.98px;
+  font: 16px roboto,sans-serif;
+  margin: 0px 0px 16px;
+}
+.popular h1{
+  height: 93.55px;
+  font: 36px roboto,sans-serif;
+  margin: 0px 0px 16px;
+}
+.compani{
+  width: 100%;
+  height: 80px;
+  margin: 32px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.compani img{
+height: 80px;
+width: 160px;
+}
+.Contact-Us{
+
+}
+
+.conten{
+  text-align: center;
+  height: 173.5PX;
+  margin: 80PX 0PX;
+}
+.conten H1{
+  height: 60PX;
+  font: 48PX ROBOTO,SANS-SERIF;
+  margin: 0PX 0PX 16PX;
+}
+.conten P{
+  height: 97.5PX;
+  font: 20PX ROBOTO,SANS-SERIF;
+  margin: 0px 381.66px 0px 341px;
+  line-height: 28px;
+}
+.contact-1{
+  display: flex;
+  /* justify-content: space-between; */
+  width: 1306.02px;
+  height: 554.36px;
+  padding: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.information{
+  height: 422.29px;
+  width: 476.39px;
+  padding: 64px;
+  background-color: rgb(134, 68, 68);
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.information h6{
+  height: 32.99px;
+  font: 24px roboto ,sans-serif;
+  margin: 0px 0px 8px;
+  color: hsl(0, 7%, 87%);
+}
+.information p{
+  color: #ddd;
+  font: 16px roboto,sans-serif;
+  margin: 0px 0px 32px;
+}
+.information .icon-2{
+  display:flex ;
+  gap: 16px;
+
+}
+.input{
+  height: 422.29px;
+  width: 506.39px;
+  padding: 20px 40px;
+}
