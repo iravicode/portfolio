@@ -11,45 +11,52 @@
 <body>
   <div class="container">
     <div class="nav">
-      <div class="logo">
-        <h2>Material Tailwind</h2>
-      </div>
-      <ul class="men">
-        <div class="navlink">
-          <div class="card">
-            <div class="hero-image-containero">
-              <img src="./images/icons8-choose-page-60.png" alt="" />
-            </div>
-            <div class="text-containero">
-              <li>Page</li>
-            </div>
-          </div>
-          <div class="card">
-            <div class="hero-image-containero">
-              <img src="./images/r.png" alt="" />
-            </div>
-            <div class="text-containero">
-              <li>Account</li>
-            </div>
-          </div>
-          <div class="card">
-            <div class="hero-image-containero">
-              <img src="./images/icons8-choose-page-60.png" alt="" />
-            </div>
-            <div class="text-containero">
-              <li>Docs</li>
-            </div>
-          </div>
+      <div class="nav-container">
+        <div class="logo">
+          <h2>Material Tailwind</h2>
         </div>
-      </ul>
-      <div class="button">
-        <button class="sign">SIGN IN</button>
-        <button type="block" class="blocks">BLOCKS</button>
+        <ul class="men" id="men">
+          <div class="navlink">
+            <div class="card">
+              <div class="hero-image-containero">
+                <img src="./images/icons8-choose-page-60.png" alt="" />
+              </div>
+              <div class="text-containero">
+                <li><a href="@">Page</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hero-image-containero">
+                <img src="./images/r.png" alt="" />
+              </div>
+              <div class="text-containero">
+                <li><a href="#">Account</a></li>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hero-image-containero">
+                <img src="./images/icons8-choose-page-60.png" alt="" />
+              </div>
+              <div class="text-containero">
+                <li><a href="$">Docs</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <button class="sign">SIGN IN</button>
+            <button type="block" class="blocks">BLOCKS</button>
+          </div>
+        </ul>
+        <button class="hamburger" onclick="toggleNavLinks()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
       </div>
     </div>
     <div class="web">
       <div class="page">
-        <h1>Welcome to my web <br />Devlopment frtofolio!</h1>
+        <h1>Welcome to my web <br />Development portofolio!</h1>
         <p>
           I'm Lily Smith, a passionate web developer based in USA. Here,
           you'll get a glimpse of my journey in the world of web development,
@@ -57,7 +64,8 @@
         </p>
         <h4>Your email</h4>
         <div class="email">
-          <input type="text" name="email" class="input" id="email" placeholder="   Enter your email" value="" />
+          <input type="text" class="as" name="email" class="input" id="email" placeholder="   Enter your email"
+            value="" />
           <button class="offer">REQRUIRE OFFER</button>
         </div>
         <div class="pairagraf">
@@ -190,9 +198,11 @@
       <div class="project">
         <h1>My Projects</h1>
         <p>
-          Whether you have a mobile app idea that needs to come to life or a <br>
+          Whether you have a mobile app idea that needs to come to life or a
+          <br />
           website that requires a facelift, I'm here to turn your digital
-          dreams <br> into reality.
+          dreams <br />
+          into reality.
         </p>
       </div>
       <div class="mobile-app">
@@ -202,8 +212,9 @@
           </div>
           <div class="about">
             <h1>Mobile App Development</h1>
-            <p>Mobile app designed to help users discover and explore local restaurants and cuisines.
-
+            <p>
+              Mobile app designed to help users discover and explore local
+              restaurants and cuisines.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -214,8 +225,9 @@
           </div>
           <div class="about">
             <h1>Landing Page Development</h1>
-            <p>Promotional landing page for a fitness website Summer Campaign. Form development included.
-
+            <p>
+              Promotional landing page for a fitness website Summer Campaign.
+              Form development included.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -226,8 +238,9 @@
           </div>
           <div class="about">
             <h1>Mobile App Development</h1>
-            <p>Mobile app designed to help users discover and explore local restaurants and cuisines.
-
+            <p>
+              Mobile app designed to help users discover and explore local
+              restaurants and cuisines.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -238,8 +251,9 @@
           </div>
           <div class="about">
             <h1>E-commerce development</h1>
-            <p>Ecommerce website offering access to the latest and greatest gadgets and accessories.
-
+            <p>
+              Ecommerce website offering access to the latest and greatest
+              gadgets and accessories.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -250,8 +264,9 @@
           </div>
           <div class="about">
             <h1>Mobile App Development</h1>
-            <p>Mobile app designed to help users discover and explore local restaurants and cuisines.
-
+            <p>
+              Mobile app designed to help users discover and explore local
+              restaurants and cuisines.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -262,8 +277,9 @@
           </div>
           <div class="about">
             <h1>Landing Page Development</h1>
-            <p>Promotional landing page for a fitness website Summer Campaign. Form development included.
-
+            <p>
+              Promotional landing page for a fitness website Summer Campaign.
+              Form development included.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -274,8 +290,9 @@
           </div>
           <div class="about">
             <h1>Mobile App Development</h1>
-            <p>Mobile app designed to help users discover and explore local restaurants and cuisines.
-
+            <p>
+              Mobile app designed to help users discover and explore local
+              restaurants and cuisines.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -286,8 +303,9 @@
           </div>
           <div class="about">
             <h1>E-commerce development</h1>
-            <p>Ecommerce website offering access to the latest and greatest gadgets and accessories.
-
+            <p>
+              Ecommerce website offering access to the latest and greatest
+              gadgets and accessories.
             </p>
             <button class="submit">SEE DETAILS</button>
           </div>
@@ -297,179 +315,177 @@
     <div class="resume">
       <div class="profail">
         <h2>MY RESUME</h2>
-        <P>Highly skilled and creative Web Developer with 5+ years of experience in crafting visually stunning and
-          functionally robust websites and web applications.
-
-        </P>
-        <button class="VIEW">VIEW MORE <img src="./images/arrow.png" alt="arrow"></button>
+        <p>
+          Highly skilled and creative Web Developer with 5+ years of
+          experience in crafting visually stunning and functionally robust
+          websites and web applications.
+        </p>
+        <button class="VIEW">
+          VIEW MORE <img src="./images/arrow.png" alt="arrow" />
+        </button>
       </div>
       <div class="skill">
-        <div class="Bachelor ">
-          <DIV class="IMAGES1">
-            <img src="./images/111.png" alt="">
-          </DIV>
+        <div class="Bachelor">
+          <div class="IMAGES1">
+            <img src="./images/111.png" alt="" />
+          </div>
           <div class="pairagraf">
-            <p>Bachelor of Science in Computer Science
-            </p>
+            <p>Bachelor of Science in Computer Science</p>
           </div>
         </div>
-        <div class="Bachelor ">
-          <DIV class="IMAGES1">
-            <img src="./images/223.png" alt="">
-          </DIV>
+        <div class="Bachelor">
+          <div class="IMAGES1">
+            <img src="./images/223.png" alt="" />
+          </div>
           <div class="pairagraf">
-            <p>Certified Web Developer
-            </p>
+            <p>Certified Web Developer</p>
           </div>
         </div>
-        <div class="Bachelor ">
-          <DIV class="IMAGES1">
-
-            <img src="./images/333.png" alt="">
-          </DIV>
+        <div class="Bachelor">
+          <div class="IMAGES1">
+            <img src="./images/333.png" alt="" />
+          </div>
           <div class="pairagraf">
-            <p>Frontend Framework Proficiency Certification
-            </p>
+            <p>Frontend Framework Proficiency Certification</p>
           </div>
         </div>
       </div>
     </div>
     <div class="Manager">
       <div class="Clients">
-        <h1>What Clients Say
-        </h1>
-        <p>Discover what clients have to say about their experiences working <br> with me. My client's satisfaction is
-          my greatest achievement!
+        <h1>What Clients Say</h1>
+        <p>
+          Discover what clients have to say about their experiences working
+          <br />
+          with me. My client's satisfaction is my greatest achievement!
         </p>
       </div>
       <div class="Mobile-App">
         <div class="marketing">
-          <h1>Mobile App Development
-          </h1>
-          <p>I had the pleasure of working with Lily on a critical web development project, and I can confidently say
-            that their expertise and professionalism exceeded my expectations.
+          <h1>Mobile App Development</h1>
+          <p>
+            I had the pleasure of working with Lily on a critical web
+            development project, and I can confidently say that their
+            expertise and professionalism exceeded my expectations.
           </p>
-          <h3>Michael - Technical Manager
-          </h3>
-          <h4>Marketing @ APPLE INC.
-          </h4>
+          <h3>Michael - Technical Manager</h3>
+          <h4>Marketing @ APPLE INC.</h4>
           <div class="icon-e">
             <div class="image-one">
-              <img src="./images/ravi 1.jpg" alt="images">
+              <img src="./images/ravi 1.jpg" alt="images" />
             </div>
             <div class="image-border"></div>
             <div class="image-one">
-              <img src="./images/ravi2.jpg" alt="images">
+              <img src="./images/ravi2.jpg" alt="images" />
             </div>
             <div class="image-border"></div>
             <div class="image-one">
-              <img src="./images/ravi3.jpg" alt="images">
+              <img src="./images/ravi3.jpg" alt="images" />
             </div>
           </div>
         </div>
         <div class="images">
-          <img src="./images/ravi 1.jpg" alt="images">
+          <img src="./images/ravi 1.jpg" alt="images" />
         </div>
       </div>
     </div>
-    <div class="POPULAR CLIENTS">
+    <div class="POPULAR-CLIENTS">
       <div class="popular">
         <p>POPULAR CLIENTS</p>
-        <h1>Trusted by over 10,000+ <br>
-          clients</h1>
+        <h1>
+          Trusted by over 10,000+ <br />
+          clients
+        </h1>
       </div>
       <div class="compani">
-        <img src="./images/1 23.svg" alt="ICONE">
-        <img src="./images/2 23.svg" alt="icone">
-        <img src="./images/3 23.svg" alt="icone">
-        <img src="./images/4 23.svg" alt="icone">
-        <img src="./images/5 23.svg" alt="icone">
-        <img src="./images/6 23.svg" alt="icone">
+        <img src="./images/1 23.svg" alt="ICONE" />
+        <img src="./images/2 23.svg" alt="icone" />
+        <img src="./images/3 23.svg" alt="icone" />
+        <img src="./images/4 23.svg" alt="icone" />
+        <img src="./images/5 23.svg" alt="icone" />
+        <img src="./images/6 23.svg" alt="icone" />
       </div>
     </div>
     <div class="Contact-Us">
       <div class="conten">
-        <h1>Contact Us
-        </h1>
-        <p>Ready to get started? Feel free to reach out through the <br> contact form, and let's embark on a journey of
-          innovation and <br> success.
-
+        <h1>Contact Us</h1>
+        <p>
+          Ready to get started? Feel free to reach out through the <br />
+          contact form, and let's embark on a journey of innovation and <br />
+          success.
         </p>
       </div>
       <div class="contact-1">
         <div class="information">
-          <h6>Contact Information
-          </h6>
-          <p>Fill up the form and our Team will get back to you <br>within 24 hours.
+          <h6>Contact Information</h6>
+          <p>
+            Fill up the form and our Team will get back to you <br />within 24
+            hours.
           </p>
           <div class="icon-2">
             <div class="call">
-              <img src="./images/PHONE.png" alt="">
+              <img src="./images/PHONE.png" alt="" />
             </div>
             <div class="writen">
-              <p>+1(424) 535 3523
-              </p>
+              <p>+1(424) 535 3523</p>
             </div>
           </div>
           <div class="icon-2">
             <div class="call">
-              <img src="./images/MESSAGE.png" alt="">
+              <img src="./images/MESSAGE.png" alt="" />
             </div>
             <div class="writen">
-              <p>hello@mail.com
-              </p>
+              <p>hello@mail.com</p>
             </div>
           </div>
           <div class="icon-2">
             <div class="call">
-              <img src="./images/TICKET.png" alt="">
+              <img src="./images/TICKET.png" alt="" />
             </div>
             <div class="writen">
-              <p>Open Support Ticket
-              </p>
+              <p>Open Support Ticket</p>
             </div>
           </div>
         </div>
         <div class="input">
           <div class="in">
-            <label for="fast name">Fast name <br><input type="text" id="name" name="name" value=""
-                placeholder="ravi"></label>
-            <label for="Last name">Last name <br><input type="text" id=" Last name" name=" Last name" value=""
-                placeholder="sharma"></label> <br>
+            <label for="fast name">Fast name <br /><input type="text" id="name" name="name" value=""
+                placeholder="ravi" /></label>
+            <label for="Last name">Last name <br /><input type="text" id=" Last name" name=" Last name" value=""
+                placeholder="sharma" /></label>
+            <br />
           </div>
-          <div class="email">
-            <label for="Email">Email <br><input type="text" value="" placeholder="ravi@gmail.com"></label>
+          <div class="aemail">
+            <label for="Email">Email <br /><input type="text" value="" placeholder="ravi@gmail.com" /></label>
           </div>
           <div class="chooz">
-            <p>What are you interested on?
-            </p>
+            <p>What are you interested on?</p>
             <form class="for">
-              <input type="radio" id="Design" name="interest" value="Design">
+              <input type="radio" id="Design" name="interest" value="Design" />
               <label for="Design">Design</label>
-              <input type="radio" id="Development" name="interest" value="Development">
+              <input type="radio" id="Development" name="interest" value="Development" />
               <label for="Development">Development</label>
-              <input type="radio" id="Support" name="interest" value="Support">
+              <input type="radio" id="Support" name="interest" value="Support" />
               <label for="Support">Support</label>
-              <input type="radio" id="other" name="interest" value="other">
+              <input type="radio" id="other" name="interest" value="other" />
               <label for="other">other</label>
             </form>
           </div>
 
           <!-- <h2>Your Message</h2> -->
           <div class="your-message">
-            <label for="your message"> your message</label> <br>
+            <label for="your message"> your message</label> <br />
             <textarea name="Your Message" id="Your Message" rows="5">
-
               </textarea>
           </div>
-          <DIV class="ccco">
-
-            <BUtton class="send">SEND MESSAGE</BUtton>
-          </DIV>
+          <div class="ccco">
+            <button class="send">SEND MESSAGE</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>
